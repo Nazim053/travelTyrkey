@@ -1,0 +1,54 @@
+
+
+.block_tour {
+    width: 100%;
+}
+
+.block_tour_flex {
+    max-width: 1600px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.block_tour_flex_containers_img_alan {
+ background-image: url(../../img/img_cpntainerTour/antalya.jpg);
+ position: center;
+ background-size: cover;
+ border-radius: 10px;
+ height: 250px;
+ width: 400px;
+}
+
+
+.block_tour_flex_containers_img_raft {
+    background-image: url(../../img/img_cpntainerTour/rafting.jpg);
+ position: center;
+ background-size: cover;
+ border-radius: 10px;
+ height: 250px;
+ width: 400px; 
+}
+
+
+.block_tour_flex_containers_img_kemer{
+    background-image: url(../../img/img_cpntainerTour/kemer.jpg);
+ position: center;
+ background-size: cover;
+ border-radius: 10px;
+ height: 250px;
+ width: 400px; 
+}
+
+
+.block_tour_flex_containers_img_antal {
+    background-image: url(../../img/img_cpntainerTour/antalya.jpg);
+ position: center;
+ background-size: cover;
+ border-radius: 10px;
+ height: 250px;
+ width: 400px; 
+}
+
+
