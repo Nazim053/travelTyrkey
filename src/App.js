@@ -1,16 +1,20 @@
 import React from "react";
 import A from './App.module.css'
 import ContainerTour from "./ContainerTour/ContainerTour";
+import LookingAdventure from "./ContainerTour/LookingAdventure/LookingAdventure";
+import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 
 function App() {
   return (
     <div className="App">
       <div className="app_container">
-      <Header/>
+          <Header/>
           <div className={A.container}>
           <ContainerTour />
+          <LookingAdventure />
           </div>
+          <Footer/>
       </div>
     </div>
   );

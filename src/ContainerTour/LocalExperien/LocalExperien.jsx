@@ -1,12 +1,11 @@
 import React from "react";
-import C from "./TrendingTours.module.css";
-import {FaWhatsapp,FaPhone,FaFacebookF,FaGithubSquare} from "react-icons/fa";
+import C from "./LocalExperien.module.css";
 
-export default function TrendingTours() {
+export default function LocalExperien() {
   return (
-    <div className={C.TrendingTours}>
+    <div className={C.LocalExperien}>
       <div className={C.block_tour}>
-        <h2 className={C.title}>Trending Tours</h2>
+        <h2 className={C.title}>Top Destinations</h2>
         <div className={C.container_tour_flex}>
           <div className={C.cart}>
             <div className={C.overlay}>
@@ -85,14 +84,6 @@ export default function TrendingTours() {
           </div>
         </div>
       </div>
-    <div className={C.IconContainer}>
-      <div className={C.block_icon}><FaWhatsapp/></div>
-      <div className={C.block_icon}><FaPhone/></div>
-      <div className={C.block_icon}><FaFacebookF/></div>
-      <div className={C.block_icon}><FaGithubSquare/></div>
-    </div>
-
-
     </div>
   );
 }
