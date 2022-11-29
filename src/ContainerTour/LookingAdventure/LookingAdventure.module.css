@@ -1,5 +1,6 @@
 
 .container {
+    margin-top: 60px;
     position: relative;
     display: flex;
     justify-content: center;

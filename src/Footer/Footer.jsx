@@ -43,11 +43,11 @@ export default function Footer() {
             <div className={F.container_midle_block_link}>CAR RENTAL</div>
           </div>
           <div className={F.container_midle_block}>
-            <div className={F.container_midle_block_link}>Account</div>
-            <div className={F.container_midle_block_link}>Legal</div>
-            <div className={F.container_midle_block_link}>Contact</div>
-            <div className={F.container_midle_block_link}>AffiliateProgram</div>
-            <div className={F.container_midle_block_link}>Privacy Policy</div>
+            <div className={F.container_midle_block_link}>ACCOUNT</div>
+            <div className={F.container_midle_block_link}>LEGAL</div>
+            <div className={F.container_midle_block_link}>CONTACT</div>
+            <div className={F.container_midle_block_link}>AFFILIATEPROGRAM</div>
+            <div className={F.container_midle_block_link}>PRIVACY POLICY</div>
           </div>
           <div className={F.container_midle_block}>
             <div className={F.container_midle_block_lang_flex}>
@@ -64,8 +64,12 @@ export default function Footer() {
           </div>
         </div>
         <div className={F.container_footer}>
-            <div className={F.block_copyright}>Copyright 2022 by Travel Tyrkey</div>
-            <div className={F.block_copyright}>Logo</div>
+          <div className={F.block_footer}>
+          <div className={F.block_copyright}>
+            Copyright 2022 by Travel Tyrkey
+          </div>
+          <div className={F.block_copyright}>Logo</div>
+          </div>
         </div>
       </div>
     </div>

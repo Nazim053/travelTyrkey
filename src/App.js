@@ -7,8 +7,8 @@ import Header from "./Header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <div className="app_container">
+    <div className={A.App}>
+      <div className={A.app_container}>
           <Header/>
           <div className={A.container}>
           <ContainerTour />

@@ -56,56 +56,56 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className={h.container_searh}>
-        <div className={h.container_searh_flex_block}>
-          <div className="container_searh_block">
-            <div className={h.container_searh_block_flex}>
-              <div className={h.container_searh_block_flex_icon}>
+      <div className={h.container_searсh}>
+        <div className={h.container_search_flex_block}>
+          <div className={h.container_search_blockЪ}>
+            <div className={h.container_search_block_flex}>
+              <div className={h.container_search_block_flex_icon}>
                 {<FaMapMarkerAlt />}
               </div>
-              <div className={h.container_searh_block_flex_text}>
-                <span className={h.container_searh_block_flex_text_sp1}>
+              <div className={h.container_search_block_flex_text}>
+                <span className={h.container_search_block_flex_text_sp1}>
                   Loaction
                 </span>
-                <span className={h.container_searh_block_flex_text_sp2}>
+                <span className={h.container_search_block_flex_text_sp2}>
                   Where are yiu going?
                 </span>
               </div>
             </div>
           </div>
-          <div className="container_searh_block">
-            <div className={h.container_searh_block_flex}>
-              <div className={h.container_searh_block_flex_icon}>
+          <div className={h.container_search_block}>
+            <div className={h.container_search_block_flex}>
+              <div className={h.container_search_block_flex_icon}>
                 {<FaRegCalendarAlt />}
               </div>
-              <div className={h.container_searh_block_flex_text}>
-                <span className={h.container_searh_block_flex_text_sp1}>
+              <div className={h.container_search_block_flex_text}>
+                <span className={h.container_search_block_flex_text_sp1}>
                   Date
                 </span>
-                <span className={h.container_searh_block_flex_text_sp2}>
+                <span className={h.container_search_block_flex_text_sp2}>
                   Add date
                 </span>
               </div>
             </div>
           </div>
-          <div className="container_searh_block">
-            <div className={h.container_searh_block_flex}>
-              <div className={h.container_searh_block_flex_icon}>
+          <div className={h.container_search_block}>
+            <div className={h.container_search_block_flex}>
+              <div className={h.container_search_block_flex_icon}>
                 {<FaCalendarDay />}
               </div>
-              <div className={h.container_searh_block_flex_text}>
-                <span className={h.container_searh_block_flex_text_sp1}>
+              <div className={h.container_search_block_flex_text}>
+                <span className={h.container_search_block_flex_text_sp1}>
                   Check out
                 </span>
-                <span className={h.container_searh_block_flex_text_sp2}>
+                <span className={h.container_search_block_flex_text_sp2}>
                   Add date
                 </span>
               </div>
             </div>
           </div>
-          <div className="container_searh_block">
-            <div className={h.container_searh_block_flex}>
-              <div className={h.container_searh_block_flex_searh}>Searh</div>
+          <div className={h.container_search_block}>
+            <div className={h.container_search_block_flex}>
+              <div className={h.container_search_block_flex_search}>Search</div>
             </div>
           </div>
         </div>
