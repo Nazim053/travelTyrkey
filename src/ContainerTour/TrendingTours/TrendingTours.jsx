@@ -1,15 +1,16 @@
 import React from "react";
 import C from "./TrendingTours.module.css";
+import Ca from './TrendingTours_adaptive.module.css'
 import {FaWhatsapp,FaPhone,FaFacebookF,FaGithubSquare} from "react-icons/fa";
 
 export default function TrendingTours() {
   return (
     <div className={C.TrendingTours}>
       <div className={C.block_tour}>
-        <h2 className={C.title}>Trending Tours</h2>
-        <div className={C.container_tour_flex}>
-          <div className={C.cart}>
-            <div className={C.overlay}>
+        <h2 className={`${C.title} ${Ca.title_adaptive}`}>Trending Tours</h2>
+        <div className={`${C.container_tour_flex} ${Ca.container_tour_flex_adaptive}`}>
+          <div className={`${C.cart} ${Ca.cart_adaptive}`}>
+            <div className={`${C.overlay} ${Ca.overlay_adaptive}`}>
               <button className={C.button}>
                 <a className={C.a} href="#">
                   Забронировать
@@ -27,8 +28,8 @@ export default function TrendingTours() {
             </div>
           </div>
 
-          <div className={C.cart}>
-            <div className={C.overlay}>
+          <div className={`${C.cart} ${Ca.cart_adaptive}`}>
+            <div className={`${C.overlay} ${Ca.overlay_adaptive}`}>
               <button className={C.button}>
                 <a className={C.a} href="#">
                   Забронировать
@@ -46,8 +47,8 @@ export default function TrendingTours() {
               </div>
             </div>
           </div>
-          <div className={C.cart}>
-            <div className={C.overlay}>
+          <div className={`${C.cart} ${Ca.cart_adaptive}`}>
+            <div className={`${C.overlay} ${Ca.overlay_adaptive}`}>
               <button className={C.button}>
                 <a className={C.a} href="#">
                   Забронировать
@@ -63,8 +64,8 @@ export default function TrendingTours() {
               </div>
             </div>
           </div>
-          <div className={C.cart}>
-            <div className={C.overlay}>
+          <div className={`${C.cart} ${Ca.cart_adaptive}`}>
+            <div className={`${C.overlay} ${Ca.overlay_adaptive}`}>
               <button className={C.button}>
                 <a className={C.a} href="#">
                   Забронировать

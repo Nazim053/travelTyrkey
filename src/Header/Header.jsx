@@ -1,5 +1,7 @@
 import React from "react";
 import h from "./Header.module.css";
+import ha from './Header_adaptive.module.css'
+
 import {
   FaShoppingCart,
   FaMapMarkerAlt,
@@ -56,10 +58,10 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className={h.container_searсh}>
-        <div className={h.container_search_flex_block}>
-          <div className={h.container_search_blockЪ}>
-            <div className={h.container_search_block_flex}>
+      <div className={`${h.container_searсh}`}>
+        <div className={`${h.container_search_flex_block} ${ha.container_search_flex_block_adaptive}`}>
+          <div className={h.container_search_block}>
+          <div className={`${h.container_search_block_flex} ${ha.container_search_block_flex_adaptive}`}>
               <div className={h.container_search_block_flex_icon}>
                 {<FaMapMarkerAlt />}
               </div>
@@ -74,7 +76,7 @@ export default function Header() {
             </div>
           </div>
           <div className={h.container_search_block}>
-            <div className={h.container_search_block_flex}>
+          <div className={`${h.container_search_block_flex} ${ha.container_search_block_flex_adaptive}`}>
               <div className={h.container_search_block_flex_icon}>
                 {<FaRegCalendarAlt />}
               </div>
@@ -89,7 +91,7 @@ export default function Header() {
             </div>
           </div>
           <div className={h.container_search_block}>
-            <div className={h.container_search_block_flex}>
+            <div className={`${h.container_search_block_flex} ${ha.container_search_block_flex_adaptive}`}>
               <div className={h.container_search_block_flex_icon}>
                 {<FaCalendarDay />}
               </div>
@@ -104,8 +106,8 @@ export default function Header() {
             </div>
           </div>
           <div className={h.container_search_block}>
-            <div className={h.container_search_block_flex}>
-              <div className={h.container_search_block_flex_search}>Search</div>
+          <div className={`${h.container_search_block_flex} ${ha.container_search_block_flex_adaptive}`}>
+              <div className={`${h.container_search_block_flex_search} ${ha.container_search_block_flex_search_adaptive}`}>Search</div>
             </div>
           </div>
         </div>

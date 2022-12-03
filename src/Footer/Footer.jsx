@@ -1,15 +1,17 @@
 import React from "react";
 import F from "./Footer.module.css";
+import Fa from "./Footer_adaptive.module.css";
+
 
 export default function Footer() {
   return (
     <div className={F.Footer}>
-      <div className={F.container}>
+      <div className={`${F.container} ${Fa.container_adaptive}`}>
         <div className={F.container_top}>
-          <div className={F.container_top_block}>NEED HELP?</div>
-          <div className={F.container_top_block}>Travel Turkey</div>
-          <div className={F.container_top_block}>travel-turkey</div>
-          <div className={F.container_top_block}>Language</div>
+          <div className={`${F.container_top_block} ${Fa.container_top_block_adaptive}`}>NEED HELP?</div>
+          <div className={`${F.container_top_block} ${Fa.container_top_block_adaptive}`}>Travel Turkey</div>
+          <div className={`${F.container_top_block} ${Fa.container_top_block_adaptive}`}>travel-turkey</div>
+          <div className={`${F.container_top_block} ${Fa.container_top_block_adaptive}`}>Language</div>
         </div>
         <div className={F.container_midle}>
           <div className={F.container_midle_block}>

@@ -1,20 +1,22 @@
 import React from "react";
 import C from "./LocalExperien.module.css";
+import Ca from "./LocalExperien_adaptive.module.css";
+
 
 export default function LocalExperien() {
   return (
     <div className={C.LocalExperien}>
       <div className={C.block_tour}>
-        <h2 className={C.title}>Top Destinations</h2>
-        <div className={C.container_tour_flex}>
-          <div className={C.cart}>
+        <h2 className={`${C.title} ${Ca.title_adaptive}`}>Top Destinations</h2>
+        <div className={`${C.container_tour_flex} ${Ca.container_tour_flex_adaptive}`}>
+          <div className={`${C.cart} ${Ca.cart_adaptive }`}>
             <div className={C.overlay}>
               <button className={C.button}>
                 <a className={C.a} href="#">
                   Забронировать
                 </a>
               </button>
-            </div>{" "}
+            </div>
             <div className={C.cart_img}></div>
             <h1 className={C.cart_h1}>From Antalya: Tazi Canyon, Selge tour</h1>
             <div className={C.cart_block}>
@@ -26,7 +28,7 @@ export default function LocalExperien() {
             </div>
           </div>
 
-          <div className={C.cart}>
+          <div className={`${C.cart} ${Ca.cart_adaptive }`}>
             <div className={C.overlay}>
               <button className={C.button}>
                 <a className={C.a} href="#">
@@ -45,7 +47,7 @@ export default function LocalExperien() {
               </div>
             </div>
           </div>
-          <div className={C.cart}>
+          <div className={`${C.cart} ${Ca.cart_adaptive }`}>
             <div className={C.overlay}>
               <button className={C.button}>
                 <a className={C.a} href="#">
@@ -62,14 +64,14 @@ export default function LocalExperien() {
               </div>
             </div>
           </div>
-          <div className={C.cart}>
+          <div className={`${C.cart} ${Ca.cart_adaptive }`}>
             <div className={C.overlay}>
               <button className={C.button}>
                 <a className={C.a} href="#">
                   Забронировать
                 </a>
               </button>
-            </div>{" "}
+            </div>
             <div className={C.cart_img4}></div>
             <h1 className={C.cart_h1}>
               From Antalya-Alanya: 2-Day Cappadocia Sightseeing Tour
