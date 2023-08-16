@@ -1,0 +1,25 @@
+.container_flex {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1650px;
+}
+
+.container_block {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  margin-top: 10px;
+  height: 250px;
+  width: 400px;
+  border-radius: 8px;
+  transition: 1s;
+}
+
+.container_block:hover {
+  font-size: 28px;
+}
