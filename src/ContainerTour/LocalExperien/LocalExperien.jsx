@@ -12,9 +12,9 @@ export default function LocalExperien() {
           <div className={`${C.cart} ${Ca.cart_adaptive }`}>
             <div className={C.overlay}>
               <button className={C.button}>
-                <a className={C.a} href="/">
+                <button className={C.a}>
                   Забронировать
-                </a>
+                </button>
               </button>
             </div>
             <div className={C.cart_img}></div>
@@ -31,9 +31,9 @@ export default function LocalExperien() {
           <div className={`${C.cart} ${Ca.cart_adaptive }`}>
             <div className={C.overlay}>
               <button className={C.button}>
-                <a className={C.a} href="/">
+                <button className={C.a}>
                   Забронировать
-                </a>
+                </button>
               </button>
             </div>
             <div className={C.cart_img2}></div>
@@ -50,9 +50,9 @@ export default function LocalExperien() {
           <div className={`${C.cart} ${Ca.cart_adaptive }`}>
             <div className={C.overlay}>
               <button className={C.button}>
-                <a className={C.a} href="/">
+                <button className={C.a}>
                   Забронировать
-                </a>
+                </button>
               </button>
             </div>{" "}
             <div className={C.cart_img3}></div>
@@ -67,9 +67,9 @@ export default function LocalExperien() {
           <div className={`${C.cart} ${Ca.cart_adaptive }`}>
             <div className={C.overlay}>
               <button className={C.button}>
-                <a className={C.a} href="/">
+                <button className={C.a}>
                   Забронировать
-                </a>
+                </button>
               </button>
             </div>
             <div className={C.cart_img4}></div>
